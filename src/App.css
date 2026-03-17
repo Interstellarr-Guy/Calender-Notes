@@ -16,3 +16,25 @@
     background-color: #777;
 
 }
+.head{
+  padding-left: 40px;
+  color:rgb(227, 219, 204);
+}
+.navbar{
+  padding-bottom: 8px;
+  padding-top: 4px;
+  
+}
+#mon {
+   margin-top: 19px;
+   padding-bottom: 0px;
+   padding-left: 13px;
+   padding-right: 13px;
+   border-radius: 4px;
+   background-color: red;
+   color:rgb(227, 219, 204);
+}
+#mon:hover{
+  background-color: #c5a7a7;
+  color: red;
+}
