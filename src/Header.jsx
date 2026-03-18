@@ -1,6 +1,6 @@
-
-
+import { Link } from 'react-router-dom';
 import './App.css'
+import { useState } from 'react';
 
 function Header() {
   return (
@@ -8,18 +8,18 @@ function Header() {
          
          <div className='flex flex-row justify-around'>
           <h1 className='head text-5xl'>2026</h1>
-              <h4 id="mon">Jan</h4>
-              <h4 id="mon">Feb</h4>
-              <h4 id="mon">Mar</h4>
-              <h4 id="mon">Apr</h4>
-              <h4 id="mon">May</h4>
-              <h4 id="mon">Jun</h4>
-              <h4 id="mon">Jul</h4>
-              <h4 id="mon"> Aug</h4>
-              <h4 id="mon">Sep</h4>
-              <h4 id="mon">Oct</h4>
-              <h4 id="mon">Nov</h4>
-              <h4 id="mon">Dec</h4>
+              <Link to="/jan" id='mon'>Jan</Link>
+              <Link to="/feb" id='mon'>Feb</Link>
+              <Link to="/mar" id='mon'>Mar</Link>
+              <Link to="/apr" id='mon'>Apr</Link>
+              <Link to="/may" id='mon'>May</Link>
+              <Link to="/jun" id='mon'>Jun</Link>
+              <Link to="/jul" id='mon'>Jul</Link>
+              <Link to="/aug" id='mon'>Aug</Link>
+              <Link to="/sep" id='mon'>Sep</Link>
+              <Link to="/oct" id='mon'>Oct</Link>
+              <Link to="/nov" id='mon'>Nov</Link>
+              <Link to="/dec" id='mon'>Dec</Link>
 
          </div>
          

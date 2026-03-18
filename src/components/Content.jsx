@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Content = () => {
   return (
-    <div className='bg-[#888] h-[90%] w-full grid grid-cols-[repeat(7,1fr)] grid-rows-[repeat(5,1fr)] border border-gray-500'>
+    <div className='bg-[#888] h-full w-full grid grid-cols-[repeat(7,1fr)] grid-rows-[repeat(5,1fr)] border border-gray-500'>
         
         
           

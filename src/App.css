@@ -38,3 +38,19 @@
   background-color: #c5a7a7;
   color: red;
 }
+
+#bgHome{
+  background-image: url("/src/images/road1.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.msg{
+  
+  place-items: center;
+  align-items: center;
+  position: relative;
+  top: 50px;
+  color: wheat;
+  
+}
