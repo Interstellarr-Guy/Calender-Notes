@@ -25,13 +25,22 @@
   padding-top: 4px;
   
 }
-#mon {
+.set1 {
    margin-top: 19px;
    padding-bottom: 0px;
    padding-left: 13px;
    padding-right: 13px;
    border-radius: 4px;
-   background-color: red;
+   background-color: rgb(186, 17, 17);
+   color:rgb(227, 219, 204);
+}
+.set2 {
+   margin-top: 19px;
+   padding-bottom: 0px;
+   padding-left: 13px;
+   padding-right: 13px;
+   border-radius: 4px;
+   background-color: rgb(186, 17, 17);
    color:rgb(227, 219, 204);
 }
 #mon:hover{
@@ -43,8 +52,11 @@
   color:red;
 }
 
+
+
+
 #bgHome{
-  background-image: url("/src/images/road1.jpeg");
+  background-image: url("/src/images/gr3.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -55,6 +67,57 @@
   align-items: center;
   position: relative;
   top: 50px;
-  color: wheat;
+  color: black;
+  text-shadow: red 1px 1px 3px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+@media (max-width: 600px)  {
+  *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  .msg{
+    font-size: 1.5rem;
+  }
+  .navbar{
+    
+    height: 8.3%;
+  }
+  .head{
+    font-size: 24px;
+    padding-left: 6px;
+    padding-top: 8px;
+  }
+  #mon{
   
+  font-size: 0.9rem;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-right: 6px;
+  
+  /*
+  position: relative;
+  top: -7px;
+  gap: 4px;  
+*/
+  
+  }
+  .days{
+    font-size: 0.57rem;
+  }
+ .set1{
+  position: relative;
+    left: 30px;
+ }
+  
+  .set2{
+    position: relative;
+    left: -185px;
+    top: 23px;
+  }
 }

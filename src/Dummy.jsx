@@ -19,7 +19,7 @@ import { Dec } from './components/Months/Dec'
 
 function Dummy()  {
   return (
-    <div className='bg-[#888] h-[90%] w-full '>
+    <div className='bg-[#888] h-full w-full '>
       <Routes>
         <Route path='/' element={<OpenMsg/>}></Route>
        
