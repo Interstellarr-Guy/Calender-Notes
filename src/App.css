@@ -38,6 +38,10 @@
   background-color: #c5a7a7;
   color: red;
 }
+#mon:focus{
+  background-color: #c5a7a7;
+  color:red;
+}
 
 #bgHome{
   background-image: url("/src/images/road1.jpeg");
